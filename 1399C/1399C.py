@@ -1,5 +1,5 @@
-# not quite sure how to slove this one
-# but i will try brute force it first
+## not quite sure how to slove this one
+## but i will try brute force it first
 
 # for test in range(int(input())):
 #     number = int(input())
@@ -22,7 +22,7 @@
 #             # print('start s : ', s)
 #             for key in my_dict.keys():
 #                 goal = s - key
-#                 if goal > 1:
+#                 if goal >= 1:
 #                     # if s = 2 key
 #                     if s == key*2:
 #                         if my_dict[key] == 1:
@@ -50,6 +50,6 @@
 #         print(max_team)
 
 ## =======================================================================================
-# there are error in the above answer , not quite sure why 
-# need to check it later
+# above is the brute force solution , but can't pass time limit
+# need to do some research
 ## =======================================================================================
