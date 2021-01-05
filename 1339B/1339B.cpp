@@ -20,7 +20,11 @@ int main(){
         //start to arrange them with bigest smalles 2ndbigest.
         long start = 0;
         long end = data_number -1;
-        long answer_index = data_number-1; // add 2 always
+        long answer_index = data_number-1; // always subtract 2
+        /*
+        if data_number is an odd number , then won't trigger the last answer_array[answer_index-1]
+        so there won't be an error.
+        */
         while(start<=end){
             answer_array[answer_index] = my_array[end];
             if((answer_index-1)<0){}else{
